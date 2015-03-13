@@ -1,2 +1,5 @@
 # orientdb-docs
-Repository of the entire OrientDB documentation.
+
+![image](http://www.orientdb.org/images/orientdb_logo_mid.png)
+
+OrientDB documentation repository.
