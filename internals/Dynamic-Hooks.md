@@ -37,7 +37,7 @@ First let's create the class `Invoice` and the custom property on an event, e.g.
 
 ```sql
 CREATE CLASS Invoice EXTENDS OTriggered
-ALTER CLASS Invoice CUSTOM onAfterCreate=invoiceCreated
+ALTER CLASS Invoice CUSTOM onAfterCreate='invoiceCreated'
 ```
 
 Let's now create the function that will be executed when the `onAfterCreate` event occurs. For this example we will create a Javascript function (`invoiceCreated`) that prints in the server console the invoice number created:
